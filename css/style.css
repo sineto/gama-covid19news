@@ -62,7 +62,7 @@ a {
   min-height: 640px;
   text-transform: uppercase;
   color: white;
-  background: url(../img/bg-header.svg),
+  background: url(../images/bg-header.svg),
     linear-gradient(to right, #0e3e87, #0aa8dc);
   background-repeat: no-repeat;
   background-position: top right;
