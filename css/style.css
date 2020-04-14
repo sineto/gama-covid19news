@@ -21,3 +21,37 @@ a {
   display: flex;
   flex-direction: column;
 }
+
+/* HEADER ------------------------------------------------------------------ */
+.header {
+  width: 100%;
+  background: linear-gradient(to right, #0e3e87, #0aa8dc);
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 5% 0;
+}
+
+/* navbar */
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul li {
+  padding-left: 40px;
+}
+
+.navbar .link-header {
+  font-weight: 500;
+  text-transform: uppercase;
+  color: white;
+  background-color: transparent;
+  border-radius: 0.35em;
+  padding: 10px 16px;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar .link-header:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
