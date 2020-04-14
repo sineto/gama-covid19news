@@ -55,3 +55,70 @@ a {
 .navbar .link-header:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
+
+/* HEADER - ARTICLE -------------------------------------------------------- */
+.header-section {
+  width: 100%;
+  min-height: 640px;
+  text-transform: uppercase;
+  color: white;
+  background: url(../img/bg-header.svg),
+    linear-gradient(to right, #0e3e87, #0aa8dc);
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 0 5%;
+  position: relative;
+  z-index: 99;
+}
+
+.header-article {
+  width: 70vh;
+  margin-top: 10%;
+}
+
+/* main-article */
+.header-article-title a {
+  font-size: 42px;
+  font-weight: 300;
+  line-height: 1.4;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px dotted transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.header-article-title a:hover {
+  border-bottom: 1px dotted white;
+}
+
+/* meta-article */
+.header-article-meta ul {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.header-article-meta li {
+  margin-right: 16px;
+}
+
+.header-article-meta .meta-source {
+  background-color: #0aa8dc;
+  padding: 10px;
+}
+
+.header-article-meta .meta-source span {
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.header-article-meta .meta-source a {
+  text-transform: lowercase;
+  color: white;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.header-article-meta .meta-source a:hover {
+  border-color: rgba(255, 255, 255, 0.6);
+}
