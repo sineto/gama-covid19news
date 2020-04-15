@@ -8,7 +8,16 @@
   padding: 5% 5%;
   position: relative;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hl-contact h1 {
+  text-transform: uppercase;
+}
+
+.hl-contact h2 {
+  font-weight: 400;
 }
 
 .form {
