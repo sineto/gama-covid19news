@@ -1,4 +1,5 @@
-h1, p {
+h1,
+p {
   margin: 0;
   padding: 0;
 }
@@ -6,7 +7,8 @@ h1, p {
 .hl-profile {
   width: 100%;
   color: white;
-  background: url(../images/bg-user.svg), linear-gradient(to right, #0e3e87, #0aa8dc);
+  background: url(../images/bg-user.svg),
+    linear-gradient(to right, #0e3e87, #0aa8dc);
   background-repeat: no-repeat;
   background-position: top right;
   padding: 5% 5%;
@@ -26,8 +28,9 @@ h1, p {
 }
 
 .hl-meta-meta-name {
-  font-size: 2.5em;
-  font-weight: 400;
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
   margin-bottom: 0.2em;
 }
 
@@ -69,10 +72,9 @@ h1, p {
   color: rgba(255, 255, 255, 0.5);
 }
 
-
 .hl-meta-sm li a:hover {
   font-size: 2em;
-  color: rgba(255, 255, 255, 1.0);
+  color: rgba(255, 255, 255, 1);
 }
 
 .resume {

@@ -7,16 +7,18 @@
 html,
 body {
   font-family: "Roboto", sans-serif;
+  letter-spacing: 0.4px;
+  line-height: 1.4;
 }
 
 ul {
-  padding: 0;
   list-style-type: none;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
-	transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .container {
@@ -28,9 +30,9 @@ a {
 .main-header {
   width: 100%;
   background: linear-gradient(to right, #0e3e87, #0aa8dc);
+  padding: 35px 5% 0;
   display: flex;
   justify-content: space-between;
-  padding: 35px 5% 0;
 }
 
 /* navbar */
@@ -43,14 +45,13 @@ a {
   padding-left: 40px;
 }
 
-.navbar ul li a{
+.navbar ul li a {
   font-weight: 500;
   text-transform: uppercase;
   color: white;
   background-color: transparent;
   border-radius: 0.35em;
   padding: 10px 16px;
-
 }
 
 .navbar ul li a:hover {
@@ -81,7 +82,6 @@ a {
   position: absolute;
   bottom: -35px;
   left: 0;
-  z-index: 1;
 }
 
 .hl-article {
@@ -93,7 +93,6 @@ a {
 .hl-article-title a {
   font-size: 42px;
   font-weight: 300;
-  line-height: 1.4;
   color: white;
   background-color: rgba(255, 255, 255, 0.1);
   border: 1px dotted transparent;
@@ -127,7 +126,7 @@ a {
 .hl-article-meta .hl-article-meta-source a {
   text-transform: lowercase;
   color: white;
-  border-bottom: 1px solid transparent;
+  border-bottom: 1px dotted transparent;
   transition: all 0.2s ease-in-out;
 }
 
@@ -186,7 +185,6 @@ a {
 .card .card-body-title {
   font-weight: 500;
   text-transform: uppercase;
-  line-height: 1.4;
 }
 
 .card .card-body-title a {
@@ -197,9 +195,9 @@ a {
 }
 
 .card .card-body-title a:hover {
-  color: #0e3e87;
+  color: #0395c5;
   background: rgba(139, 132, 132, 0.1);
-  border-bottom-color: rgba(14, 63, 135, 1);
+  border-bottom-color: rgba(3, 149, 197, 1);
 }
 
 /* card-body subtext */
@@ -209,6 +207,7 @@ a {
 
 /* card-body meta */
 .card .card-body-meta {
+  letter-spacing: 0px;
   display: flex;
   align-items: center;
 }
@@ -226,6 +225,7 @@ a {
 
 .card .card-body-meta .meta-source a {
   color: white;
+  border-bottom: 1px dotted transparent;
 }
 
 .card .card-body-meta .meta-source span {
@@ -291,5 +291,5 @@ a {
 
 .footer .footer-info .footer-menu li a:hover {
   color: white;
-	border-bottom-color: white;
+  border-bottom-color: white;
 }

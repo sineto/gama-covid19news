@@ -4,7 +4,7 @@
   background: url(../images/bg-message.svg),
     linear-gradient(to right, #0e3e87, #0aa8dc);
   background-repeat: no-repeat;
-  background-position: top right;
+  background-position: 95% 1%;
   padding: 5% 5%;
   position: relative;
   display: flex;
