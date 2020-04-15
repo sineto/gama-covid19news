@@ -1,0 +1,93 @@
+h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+.hl-profile {
+  width: 100%;
+  color: white;
+  background: url(../images/bg-user.svg), linear-gradient(to right, #0e3e87, #0aa8dc);
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 5% 5%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.hl-meta {
+  width: 50%;
+  display: flex;
+}
+
+.hl-meta-avatar {
+  width: 500px;
+  height: 250px;
+}
+
+.hl-meta-meta-name {
+  font-size: 2.5em;
+  font-weight: 400;
+  margin-bottom: 0.2em;
+}
+
+.hl-meta-meta-text {
+  font-size: 18px;
+  margin-bottom: 2em;
+}
+
+.hl-meta-contact {
+  margin-bottom: 28px;
+}
+
+.hl-meta-contact li {
+  margin-bottom: 16px;
+}
+
+.hl-meta-contact li a {
+  color: white;
+  border-bottom: 1px dotted white;
+}
+
+.hl-meta-contact li span {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+  padding-right: 40px;
+}
+
+.hl-meta-sm {
+  display: flex;
+}
+
+.hl-meta-sm li {
+  margin-right: 16px;
+}
+
+.hl-meta-sm li a {
+  font-size: 2em;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+.hl-meta-sm li a:hover {
+  font-size: 2em;
+  color: rgba(255, 255, 255, 1.0);
+}
+
+.resume {
+  width: 55%;
+  color: #555;
+  margin: 0 auto;
+  padding: 5% 5%;
+}
+
+.resume h1 {
+  font-weight: 400;
+  margin-bottom: 1.5em;
+}
+
+.resume p {
+  font-size: 18px;
+  line-height: 1.7;
+}
