@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
 
 * {
+  /* transition: all 0.3s ease-in-out; */
   box-sizing: border-box;
 }
 
@@ -121,4 +122,114 @@ a {
 
 .header-article-meta .meta-source a:hover {
   border-color: rgba(255, 255, 255, 0.6);
+}
+
+/* HIGHLIGHTED-CARDS ------------------------------------------------------- */
+.hl-cards {
+  width: 100%;
+  padding: 5% 5% 1em;
+  background: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.hl-cards::before {
+  content: "";
+  width: 100%;
+  height: 70px;
+  background: linear-gradient(to right, #0e3e87, #0aa8dc);
+  transform: skewY(-2deg);
+  position: absolute;
+  top: -35px;
+  left: 0;
+  z-index: 1;
+}
+
+/* card */
+.card {
+  max-width: 450px;
+  margin: 26px;
+  background: white;
+  transition-property: box-shadow, transform;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 0 15px 10px #efefef;
+  transform: scale(1.06, 1.06);
+}
+
+/* card image */
+.card-img {
+  width: 100%;
+}
+
+.card .card-img .img-el {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* card body */
+.card .card-body {
+  color: #5b5656;
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* card-body title */
+.card .card-body-title {
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+.card .card-body-title a {
+  color: inherit;
+  background: transparent;
+  border-bottom: 1px dotted transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.card .card-body-title a:hover {
+  color: #0e3e87;
+  background: rgba(139, 132, 132, 0.1);
+  border-bottom-color: rgba(14, 63, 135, 1);
+}
+
+/* card-body subtext */
+.card .card-body-subtext {
+  color: #757575;
+}
+
+/* card-body meta */
+.card .card-body-meta {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.card .card-body-meta li {
+  margin-right: 16px;
+}
+
+/* card-body meta-source */
+.card .card-body-meta .meta-source {
+  color: white;
+  padding: 10px;
+  background: #0aa8dc;
+}
+
+.card .card-body-meta .meta-source a {
+  color: white;
+}
+
+.card .card-body-meta .meta-source span {
+  font-weight: 700;
 }
