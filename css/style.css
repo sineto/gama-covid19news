@@ -11,6 +11,7 @@ body {
 }
 
 ul {
+  padding: 0;
   list-style-type: none;
 }
 
@@ -72,6 +73,18 @@ a {
   z-index: 99;
 }
 
+.header-section::after {
+  content: "";
+  width: 100%;
+  height: 70px;
+  background: linear-gradient(to right, #0e3e87, #0aa8dc);
+  transform: skewY(-2deg);
+  position: absolute;
+  bottom: -35px;
+  left: 0;
+  z-index: 1;
+}
+
 .header-article {
   width: 70vh;
   margin-top: 10%;
@@ -127,25 +140,13 @@ a {
 /* HIGHLIGHTED-CARDS ------------------------------------------------------- */
 .hl-cards {
   width: 100%;
-  padding: 5% 5% 1em;
+  padding: 6% 5% 5%;
   background: white;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
-}
-
-.hl-cards::before {
-  content: "";
-  width: 100%;
-  height: 70px;
-  background: linear-gradient(to right, #0e3e87, #0aa8dc);
-  transform: skewY(-2deg);
-  position: absolute;
-  top: -35px;
-  left: 0;
-  z-index: 1;
 }
 
 /* card */
@@ -232,4 +233,66 @@ a {
 
 .card .card-body-meta .meta-source span {
   font-weight: 700;
+}
+
+/* FOOTER ------------------------------------------------------------------ */
+.footer {
+  width: 100%;
+  padding: 1em 2em 0.2em;
+  background: linear-gradient(to right, #0e3e87, #0aa8dc);
+  position: relative;
+}
+
+/* .footer::before { */
+/*   content: ""; */
+/*   width: 100%; */
+/*   height: 70px; */
+/*   background: linear-gradient(to right, #0e3e87, #0aa8dc); */
+/*   transform: skewY(-2deg); */
+/*   position: absolute; */
+/*   top: -35px; */
+/*   left: 0; */
+/* } */
+
+.footer .footer-info {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer .footer-info li {
+  margin: 10px 0;
+}
+
+/* footer logo */
+.footer .footer-info .footer-logo {
+  text-align: center;
+}
+
+.footer .footer-info .footer-logo img {
+  width: 70%;
+}
+
+/* footer menu */
+.footer .footer-info .footer-menu {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: flex;
+}
+
+.footer .footer-info .footer-menu li {
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+.footer .footer-info .footer-menu li a {
+  color: white;
+  border-bottom: 1px dotted transparent;
+  transition: border 0.2s ease-in-out;
+}
+
+.footer .footer-info .footer-menu li a:hover {
+  color: white;
+	border-bottom-color: white;
 }
