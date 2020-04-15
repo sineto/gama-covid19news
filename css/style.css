@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
 
 * {
-  /* transition: all 0.3s ease-in-out; */
   box-sizing: border-box;
 }
 
@@ -17,6 +16,7 @@ ul {
 
 a {
   text-decoration: none;
+	transition: all 0.3s ease-in-out;
 }
 
 .container {
@@ -25,7 +25,7 @@ a {
 }
 
 /* HEADER ------------------------------------------------------------------ */
-.header {
+.main-header {
   width: 100%;
   background: linear-gradient(to right, #0e3e87, #0aa8dc);
   display: flex;
@@ -43,7 +43,7 @@ a {
   padding-left: 40px;
 }
 
-.navbar .link-header {
+.navbar ul li a{
   font-weight: 500;
   text-transform: uppercase;
   color: white;
@@ -51,17 +51,16 @@ a {
   border-radius: 0.35em;
   padding: 10px 16px;
 
-  transition: all 0.3s ease-in-out;
 }
 
-.navbar .link-header:hover {
+.navbar ul li a:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-/* HEADER - ARTICLE -------------------------------------------------------- */
-.header-section {
+/* HIGHLIGHTED - ARTICLE --------------------------------------------------- */
+.hl-section {
   width: 100%;
-  min-height: 640px;
+  min-height: 660px;
   text-transform: uppercase;
   color: white;
   background: url(../images/bg-header.svg),
@@ -73,7 +72,7 @@ a {
   z-index: 99;
 }
 
-.header-section::after {
+.hl-section::after {
   content: "";
   width: 100%;
   height: 70px;
@@ -85,13 +84,13 @@ a {
   z-index: 1;
 }
 
-.header-article {
+.hl-article {
   width: 70vh;
   margin-top: 10%;
 }
 
 /* main-article */
-.header-article-title a {
+.hl-article-title a {
   font-size: 42px;
   font-weight: 300;
   line-height: 1.4;
@@ -101,46 +100,45 @@ a {
   transition: all 0.2s ease-in-out;
 }
 
-.header-article-title a:hover {
+.hl-article-title a:hover {
   border-bottom: 1px dotted white;
 }
 
 /* meta-article */
-.header-article-meta ul {
-  padding: 0;
+.hl-article-meta ul {
   display: flex;
   align-items: center;
 }
 
-.header-article-meta li {
+.hl-article-meta li {
   margin-right: 16px;
 }
 
-.header-article-meta .meta-source {
+.hl-article-meta .hl-article-meta-source {
   background-color: #0aa8dc;
   padding: 10px;
 }
 
-.header-article-meta .meta-source span {
+.hl-article-meta .hl-article-meta-source span {
   font-weight: 700;
   text-transform: capitalize;
 }
 
-.header-article-meta .meta-source a {
+.hl-article-meta .hl-article-meta-source a {
   text-transform: lowercase;
   color: white;
   border-bottom: 1px solid transparent;
   transition: all 0.2s ease-in-out;
 }
 
-.header-article-meta .meta-source a:hover {
+.hl-article-meta .hl-article-meta-source a:hover {
   border-color: rgba(255, 255, 255, 0.6);
 }
 
-/* HIGHLIGHTED-CARDS ------------------------------------------------------- */
+/* HIGHLIGHTED - CARDS ----------------------------------------------------- */
 .hl-cards {
   width: 100%;
-  padding: 6% 5% 5%;
+  padding: 6% 5% 3%;
   background: white;
   position: relative;
   display: flex;
@@ -211,7 +209,6 @@ a {
 
 /* card-body meta */
 .card .card-body-meta {
-  padding: 0;
   display: flex;
   align-items: center;
 }
