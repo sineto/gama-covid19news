@@ -50,9 +50,10 @@ a {
 .main-header {
   width: 100%;
   background: linear-gradient(to right, #0e3e87, #0aa8dc);
-  padding: 35px 5% 0;
+  padding: 25px 5%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 /* navbar */
@@ -109,7 +110,14 @@ a {
   margin-top: 10%;
 }
 
+.hl-article h1 {
+  font-size: 2em;
+}
 /* main-article */
+.hl-article-title {
+  margin: 16px 0;
+}
+
 .hl-article-title a {
   font-size: 42px;
   font-weight: 300;
@@ -196,7 +204,7 @@ a {
 /* card body */
 .card .card-body {
   color: #5b5656;
-  padding: 0 5%;
+  padding: 0 5% 5%;
   display: flex;
   flex-direction: column;
 }
@@ -205,6 +213,7 @@ a {
 .card .card-body-title {
   font-weight: 500;
   text-transform: uppercase;
+  padding: 16px 0;
 }
 
 .card .card-body-title a {
@@ -223,6 +232,7 @@ a {
 /* card-body subtext */
 .card .card-body-subtext {
   color: #757575;
+  padding-bottom: 16px;
 }
 
 /* card-body meta */
