@@ -15,6 +15,9 @@ notícias em texto e vídeos.
   - Home, Sobre, Contato e Saiba Mais.
 - Precisa estar em um repositório no GitHub.
 
+## Protótipo v.1
+![protótipo v.1](https://github.com/sinetoami/covid19news/raw/master/docs/images/covid19news-v1.png "v.1")
+
 ## TODO
  - [ ] Colocar uma image do protótipo da página criado com [Figma](https://www.figma.com);
  - [ ] Tornar a página fiel ao protótipo;
