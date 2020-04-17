@@ -18,7 +18,8 @@ notícias em texto e vídeos.
 ## TODO
  - [ ] Colocar uma image do protótipo da página criado com [Figma](https://www.figma.com);
  - [ ] Tornar a página fiel ao protótipo;
- - [ ] Fazer a página consumir alguma API de com as notícias escolhidas.
+ - [ ] Tornar a página responsiva;
+ - [ ] Fazer a página consumir alguma API de notícias escolhidas.
 
 ## Self-Promotion
 Do you like this plugin? Come on:
