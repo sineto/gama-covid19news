@@ -82,13 +82,13 @@ a {
 /* HIGHLIGHTED - ARTICLE --------------------------------------------------- */
 .hl-header {
   width: 100%;
-  min-height: 660px;
+  height: 430px;
   text-transform: uppercase;
   color: white;
-  background: url(../images/bg-header.svg),
+  background: url(../images/bg-header2.svg),
     linear-gradient(to right, #0e3e87, #0aa8dc);
   background-repeat: no-repeat;
-  background-position: top right;
+  background-position: 92% 0;
   padding: 0 5%;
   position: relative;
   z-index: 99;
@@ -106,17 +106,16 @@ a {
 }
 
 .hl-article {
-  width: 70vh;
-  margin-top: 10%;
+  margin: 4% 0 0 0;
 }
 
 .hl-article-pin {
-  font-size: 2em;
+  font-size: 1.4em;
   font-weight: 700;
 }
 
-/* main-article */
 .hl-article-title {
+  width: 70vh;
   margin: 16px 0;
 }
 
