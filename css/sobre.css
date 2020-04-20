@@ -11,14 +11,30 @@
 }
 
 .hl-meta {
-  width: 50%;
+  width: 800px;
   display: flex;
+  align-items: center;
 }
 
 .hl-meta-avatar {
-  width: 500px;
-  height: 250px;
+  max-width: 500px;
+  max-height: 250px;
   margin-right: 26px;
+}
+
+@media (max-width: 960px) {
+  .hl-meta {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .hl-meta-avatar img {
+    width: 100%;
+  }
+
+  .hl-meta-contact {
+    text-align: left;
+  }
 }
 
 .hl-meta-info-name {
@@ -76,7 +92,7 @@
 }
 
 .resume {
-  width: 55%;
+  max-width: 900px;
   color: #555;
   margin: 0 auto;
   padding: 5% 5%;
