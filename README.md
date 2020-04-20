@@ -4,7 +4,7 @@ aplicar um dos desafios incentivado pela plataforma da
 [Gama Academy](https://gama.academy).
 
 ## O Desafio
-A proposta do desafio é criar uma _langing page_ com as seis melhores notícia, 
+A proposta do desafio é criar uma _langing page_ com as seis melhores notícias,
 ao nosso critério, sobre o COVID-19. Aqui neste projeto foram utilizados
 notícias em texto e vídeos.
 
