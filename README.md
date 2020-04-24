@@ -34,3 +34,6 @@ Do you like this plugin? Come on:
 
 ## License
 [MIT License](LICENSE)
+
+## teste ssh
+teste
