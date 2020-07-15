@@ -25,6 +25,7 @@ notícias em texto e vídeos.
  - [ ] Tornar a página fiel ao protótipo;
  - [ ] Tornar a página responsiva;
  - [ ] Fazer a página consumir alguma API de notícias escolhidas.
+ - [ ] Refazer o projeto utilizando a biblioteca ReactJS
 
 ## Self-Promotion
 Do you like this plugin? Come on:
